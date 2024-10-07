@@ -36,5 +36,3 @@ def dice_rolling_game():
 # and if so, it starts the game by calling the 'dice_rolling_game' function.
 if __name__ == "__main__":
     dice_rolling_game()
-
-#testcomment
