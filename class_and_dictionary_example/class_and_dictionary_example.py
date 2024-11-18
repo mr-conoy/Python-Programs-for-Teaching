@@ -10,8 +10,8 @@ class Product:
 # Create a dictionary of products
 products = {
     "A1": Product(name="Crisps", code="A1", price=0.75),
-    "B2": Product(name="Chocolate Bar", code="B2", price=1.25),
-    "C3": Product(name="Soda", code="C3", price=2.00),
+    "B2": Product(name="Chocolate Bar", code="B2", price=1.00),
+    "C3": Product(name="Cola", code="C3", price=1.50),
 }
 
 # Function to handle user input
