@@ -26,12 +26,12 @@ def converter_program():
         if choice == "1":
             binary = input("Enter a binary number: ")
             denary = binary_to_denary(binary)
-            print(f"The denary value is: {denary}")
+            print("The denary value is: ", denary)
         
         elif choice == "2":
             denary = int(input("Enter a denary number: "))
             binary = denary_to_binary(denary)
-            print(f"The binary value is: {binary}")
+            print("The binary value is: ", binary)
         
         elif choice == "3":
             print("Goodbye!")
